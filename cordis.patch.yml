@@ -1,0 +1,3 @@
+- insert:
+    - id: compact-header
+      name: dsh-compact-header

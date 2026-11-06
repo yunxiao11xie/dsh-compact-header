@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Compact conversation header",
+    "description": "Tightens the conversation header, inlines the View tabs on wide windows, shows a local clock with session stats, and hides the duplicate composer stats pills."
+  }
+}
