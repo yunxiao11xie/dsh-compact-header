@@ -1,9 +1,15 @@
 {
   "name": "dsh-compact-header",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Header polish for the DeepSeek Harness Web UI: compact header, inline View tabs, clock with session statistics, and no duplicate composer stats.",
-  "keywords": ["dsh-plugin", "deepseek-harness", "dsh", "ui", "header"],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "ui",
+    "header"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -30,11 +36,15 @@
     "LICENSE"
   ],
   "dsh": {
-    "bundle": { "patch": "./cordis.patch.yml" },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "client": {
       "platform": "web",
       "immediately": true,
-      "inject": ["@deepseek-ai/dsh-client-ui-conversation"]
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
     }
   }
 }

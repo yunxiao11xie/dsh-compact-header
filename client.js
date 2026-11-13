@@ -8,10 +8,10 @@ window.__ModuleLoader__.load({
     const STYLE_ID = 'dsh-compact-header-style';
 
     // CSS-module class prefix of the shipped conversation header. It changes
-    // between DSH builds (this plugin broke once when wSkVaW_ became mAYO5W_).
+    // between DSH builds (mAYO5W_ -> an3WzG_ on 0.2.2-rc.2).
     // After a DSH upgrade, re-read the prefix from the packaged client bundle
     // and update this single line.
-    const PREFIX = 'mAYO5W_';
+    const PREFIX = 'an3WzG_';
 
     // Below this width (CSS px) the View tabs keep their own row.
     const INLINE_MIN_WIDTH = 900;
@@ -198,3 +198,4 @@ ${HIDE_DOCK_STATS ? `
     };
   },
 });
+
